@@ -25,7 +25,7 @@ public class Main {
 		@SuppressWarnings({ "unchecked", "rawtypes" })
 		public static void main(String[] args) throws WriterException, IOException, NotFoundException {
 			// Initial hardcoded data for test program 
-			qrCodeData = "\nDay: Tuesday\nTime: 09:00 to 11:00\nSubject: Software Engineering\nRoom: E1004";
+			qrCodeData = "\nDay: Tuesday\nTime: 09:00 to 11:00\nSubject: Software Engineering\nRoom: B1004";
 			filePath = "myQRCode.png";
 			
 			qr = new QR(qrCodeData, filePath);

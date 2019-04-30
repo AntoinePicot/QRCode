@@ -2,7 +2,6 @@ package ie.itsligo.roomRoute;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.URL;
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
@@ -270,7 +269,6 @@ public class Directions {
 				} catch (LineUnavailableException e) {
 					e.printStackTrace();
 				} catch (Throwable e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -296,7 +294,6 @@ public class Directions {
 			} catch (LineUnavailableException e) {
 				e.printStackTrace();
 			} catch (Throwable e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
